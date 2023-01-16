@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+
+    <!--css file link-->
+    <link rel="stylesheet" href="landingPage.css">
+    <style>
+       header{
+    width: 100%;
+    height: 150vh;
+    background: rgb(173, 162, 163);
+    background-image: url(Space-Debris.jpeg);
+    color: rgb(39, 18, 48);
+    background-position: center;
+    background-size: cover;
+    padding-right: 3%;
+    padding-left: 5%;
+    box-sizing: border-box ;
+    border: 50px solid grey;
+    box-shadow: 10px ivory;
+    border-radius: 10px;
+
+}
+.Explore a:hover{
+    color: rgb(76, 167, 76);
+
+}
+button:hover{
+    color: red;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: left;
+    height: 70px;
+}
+.logo{
+    font-size: 40px;
+    align-items: left;
+}
+.logo span{
+    color: ivory;
+    align-items: left;
+}
+.Explore a{
+    text-decoration: underline;
+    color:  ivory;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+.container{
+    display:flex;
+    left: 0;
+    text-align: left;
+
+}
+.left{
+    flex-basis: 50px;
+    max-width: 400px;
+    padding-left: 400px;
+    text-align: left;
+}
+/* .right{
+    flex-basis: 50px;
+} */
+.rigth img{
+    width:70%;
+}
+label{
+    position: relative;
+    background-color: rgb(107, 89, 83);
+}
+/* label input{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+} */
+line{
+    line-height: 12px;
+    margin: 20px 0px;
+
+}
+.box{
+    width: 15px;
+    height: 5px;
+    background-color: ivory;
+}
+.left h1{
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+.left h2{
+    color: gray;
+}
+.left button{
+    background:ivory;
+    outline: auto;
+    border: 2px indigo;
+    border-radius: 8px;
+    margin: 3px 0px;
+    padding: 10px 20px;
+}
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <div class = "logo">
+                <span>Galaxy</span> and Nebula
+
+            </div>
+            <div
+            class  = "Explore">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Overview</a>
+            <a href="#">Nebula</a>
+                
+            </div>
+            <div>
+                <!-- <img src="galaxy.jpeg"> -->
+                <img src="">
+            </div>
+        </nav>
+
+<div
+class = "container">
+    <div class = "left">
+         <label>
+            <input type="search" name = "" placeholder="Search hear">
+         </label>
+         <div class = "line">
+            <div class="box"></div><br>
+         </div>
+         <h2>space and deapth</h2>
+         <h1> <span style="color: ivory;"  >planetary</span> science</h1>
+         <p>The ocean to deep dive in the deapth of planetry science and space</p>
+         <button>
+            GO
+         </button>
+    </div>
+    <!-- <div class="rigth">
+        <img src="img_nebula.png" alt="">
+    </div> -->
+
+</div>        
+    </header>
+    
+</body>
+</html>
